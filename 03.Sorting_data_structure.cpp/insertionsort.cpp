@@ -7,12 +7,12 @@ int main() {
     cin >> n;
     
 
-    int a[n];  // user-defined size array
+    int a[n];  
     cout << "Enter " << n << " elements: ";
     for (int i = 0; i < n; i++)
         cin >> a[i];
 
-    // Insertion Sort
+    
     for (int i = 1; i < n; i++) {
         int key = a[i];
         int j = i - 1;
