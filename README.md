@@ -20,11 +20,11 @@ fundamental Data Structures using C++.
 
 ## 🎯 Purpose
 - Data Structure practice for CSE students
-- Interview preparation
+
 - Strong problem-solving foundation
 
 ## 🚀 How to Use
 Clone the repository and run any .cpp file using a C++ compiler.
 
 ## 👤 Author
-Rimon Sab
+Tanber Hasan Rimon
