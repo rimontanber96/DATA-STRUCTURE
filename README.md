@@ -6,14 +6,14 @@ fundamental Data Structures using C++.
 
 ## 📚 Topics Covered
 - Arrays
+- Searching Algorithms
+- Sorting Algorithms
+- String
 - Linked List
 - Stack
 - Queue
 - Tree
 - Graph
-- Searching Algorithms
-- Sorting Algorithms
-- String
 
 ## 🛠 Language
 - C++
