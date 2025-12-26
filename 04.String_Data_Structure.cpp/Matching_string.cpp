@@ -23,7 +23,6 @@ int main() {
             }
         }
 
-
         if (j == m) {
             cout << "Pattern found at index " << i << endl;
             found = true;
