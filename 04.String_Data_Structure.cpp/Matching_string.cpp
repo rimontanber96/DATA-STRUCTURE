@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-    int j;
     string text, pattern;
 
     cout << "Enter Text: ";
@@ -17,19 +16,22 @@ int main() {
     bool found = false;
 
     for (int i = 0; i <= n - m; i++) {
-        
-        for (int j = 0; j < m; j++) {
-            if (text[i + j] != pattern[j])
+        int j;
+        for (j = 0; j < m; j++) {
+            if (text[i + j] != pattern[j]) {
                 break;
+            }
         }
-        if ( j== m) {
+
+        if (j == m) {
             cout << "Pattern found at index " << i << endl;
             found = true;
         }
     }
 
-    if (!found)
-        cout << "Pattern not found" << endl;
+    if (!found) {
+        cout << "Pattern not found";
+    }
 
-
+    return 0;
 }
