@@ -22,6 +22,12 @@ int main() {
                 break;
             }
         }
+//         Text:     h e l l o
+// Pattern:  l l
+// i = 0
+// text[i+j]  pattern[j]
+// text[0+0]=h pattern[0]=l → mismatch → break
+
 
         if (j == m) {
             cout << "Pattern found at index " << i << endl;
