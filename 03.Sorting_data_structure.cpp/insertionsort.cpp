@@ -14,14 +14,14 @@ int main() {
 
     
     for (int i = 1; i < n; i++) {
-        int key = a[i];
+        int temp = a[i];
         int j = i - 1;
 
-        while (j >= 0 && a[j] > key) {
+        while (j >= 0 && a[j] > temp) {
             a[j + 1] = a[j];
             j--;
         }
-        a[j + 1] = key;
+        a[j + 1] = temp;
     }
 
     cout << "Sorted array: ";
