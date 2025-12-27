@@ -22,6 +22,7 @@ int main() {
             j--;
         }
         a[j + 1] = temp;
+        
     }
 
     cout << "Sorted array: ";
